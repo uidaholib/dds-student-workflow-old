@@ -7,11 +7,31 @@
 
         <div class="collapse navbar-collapse justify-content-end" id="mainNav">
             <ul class="navbar-nav nav-tabs justify-content-end">
+            
             {% for section in site.html_pages %}{% if section.nav == true %}
                 <li class="nav-item">
                     <a class="nav-link{% if page.url == section.url %} active{% endif %} p-3" href="{{ section.url | absolute_url }}">{{ section.title }}</a>
                 </li>
             {% endif %}{% endfor %}
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Digitization Procedures</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="{{ '/content/0-Overview.html' | relative_url}}">Overview</a>
+                    <a class="dropdown-item" href="{{ '/content/1-Scanning.html' | relative_url}}">Scanning & Processing</a>
+                    <a class="dropdown-item" href="{{ '/content/2-Metadata.html' | relative_url}}">Metadata</a>
+                    <a class="dropdown-item" href="{{ '/content/3-Equipment.html' | relative_url}}">Equipment</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="{{ '/content/progress-form.html' | relative_url}}">Daily Progress Form</a>
+                        <a class="dropdown-item" href="https://sts.uidaho.edu/adfs/ls/?SAMLRequest=lZNRb5swFIXf9yssvwcMS%2BdiBaosVbVKnRYltA97mVxzWSyBzXxNlp8%2FA4lEpa3tXuHec8%2F5DqxuTm1DjuBQW5PTJGKUgFG20uZnTh%2FLu8U1vSk%2BrFC2TSfWvT%2BYHfzqAT1ZI4LzYW1jDfYtuD24o1bwuHvI6cH7DkUcg8ZIe4x6XcmDjaDqRbZcfoyVbVtrZNCj5DaoaSP96OCyiC%2BWYlnVGDcYU3JnnYLRSE6964GS%2B9uc%2FmDpkkEleZrUGVdcAsv48orz6yRT9TOvwhhuJaI%2BQk5r2eCwiNjDvUEvjc9pypJswfgiycokE4wJdhVx%2Fuk7JVtnvVW2%2BazNxKV3RliJGoWRLaDwSuzXXx9EGjHxPA2h%2BFKW28X2276k5OnCNx34BuIGxUj0danufJcWZ%2F6jYfd%2BAXmpiBZvFTKoIdpVPL803U07ce4cqhF8KNzDyZONbTvpNA7J4CSVn2dL%2Fy%2BcmCtvmuB8B%2FVM7t1BXx1TQg3S4fHwLfy2rhq6BRWSlU4a7KzzE4K%2F%2Bimmd%2F8CUlzozf%2BT4g8%3D&RelayState=f5549766-0b4c-45eb-bc70-c323db874bea&SigAlg=http%3A%2F%2Fwww.w3.org%2F2000%2F09%2Fxmldsig%23rsa-sha1&Signature=ENfqxqX3WMqXaWHz73zDbco46YwEhk%2FclXOZWJm2wv148fkyK7HNqVC9TJ6PUDvA8zuxOLcwcplADJ5PL7lCHDGVlMwOGrvHob%2F2SM5FY9jx%2FveJ00JvRRrVN3aEWuusshayya3RvoQJejvmSyMus0ZN7v7I9%2F%2BL9htilPIS3CeDBbIBzwt4%2BTYFshLu1v74430h55P5aJv9hMtM8v60LP7FKqI5mEDXiTMh%2B0xhQ1DkvwzmtyTRF%2BN2QWdARMqlqwhs5TgKFhqh9yHuqVzEVCqqi8rljuasBq0bKXMTeX38UY%2FX7dqJByD4uLne9ejRWZulpgO5uud64uTlmzmjMw%3D%3D">VandalWeb Time Entry</a>
+                    </div>
+                </li>
+            
             </ul>  
         </div>
     </div>

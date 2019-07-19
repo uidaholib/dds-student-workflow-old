@@ -1,11 +1,11 @@
 ---
 title: Metadata
-nav: true
+nav: false
 ---
 
 # How do we describe things?
 
-In this lab we use the Simple Dublin Core Metadata Practices, which provides us a standard for how we format our descriptions and make the information readable for a large audience. This section will cover the details of the different formats and guidelines for all common sections of a metadata sheet that technicians will encounter.
+In this lab we use the simple <a href="https://en.wikipedia.org/wiki/Dublin_Core" target="_blank" rel="noopener">Dublin Core Metadata Practices</a>, which provides us a standard for how we format our descriptions and make the information readable for a large audience. This section will cover the details of the different formats and guidelines for all common sections of a metadata sheet that technicians will encounter.
 
 Not all of the fields listed below will appear on every metadata sheet. Some metadata sheets will have extra fields depending on the subject material. As a general rule, though, these are the most common fields you will encounter when entering metadata. It may seem like a lot of information, but each field serves a purpose for both preservation and access.
 
