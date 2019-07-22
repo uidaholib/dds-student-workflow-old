@@ -1,5 +1,0 @@
----
-title: Equipment
-nav: false
----
-
