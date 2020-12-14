@@ -144,6 +144,42 @@ nav: false
 </div>
 
 <div class="card mb-3">
+    <a id="batch_actions">
+        <h5 class="card-header">Batch Actions:</h5>
+    </a>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-sm-8">
+                <p class="card-text">Photoshop will need several batch actions to process the files that are produced during scanning. You can check the "Actions" window in Photoshop to make sure that you have a "tiff>jpg" action and a "300dpijpg" action available. If you do not see the Action window you can display it by pressing ALT+F9 or checking the "Actions" option in the "Windows" menu.</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="{{ '/images/scanning-screenshots/screenshot-batcha.jpg' | relative_url }}" class="img-fluid">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8">
+                <p class="card-text"><strong>Creating New Actions</strong></p> 
+                <ol>
+                    <li>Open a tiff file in Photoshop.</li>
+                    <li>Click the "Create New Action" icon in the Actions window. Name the action either "tiff>jpg" or "300dpijpg" and press record.</li>
+                    <li>Perform the actions that you want recorded to the tiff file.</li>
+                    <ul>
+                        <li><strong>tiff>jpg:</strong> Use the "Save As..." command in the File menu. Select the "access jpg" folder and change the file type from Tiff to Jpg. When prompted, set Quality at 12. Close the file.</li>
+                    </ul>
+                    <ul>
+                        <li><strong>300dpijpg:</strong> Use the "Image Size..." command in the Image menu. Change the Resolution field to 300. Use the "Save As..." command in the File menu. Select the "lowres jpg" folder and change the file type from Tiff to Jpg. When prompted, set Quality at 8. Use the "Close" command in the File menu.</li>
+                    </ul>
+                    <li>Click the "Stop Playing/Recording" button in the Actions window.</li>
+                </ol>
+            </div>
+            <div class="col-sm-4">
+                <img src="{{ '/images/scanning-screenshots/screenshot-batchb.jpg' | relative_url }}" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card mb-3">
     <a id="processing_scanned_images">
         <h5 class="card-header">Processing scanned images:</h5>
     </a>
@@ -153,7 +189,7 @@ nav: false
             <ul>
                 <li>Move all scanned images so far into the tif folder.</li>
             </ul>
-            <li>Open the first image you scanned in Photoshop (right-click>open with>Photoshop)</li>
+            <li>Open Photoshop</li>
         </ol>
         <div class="row">
             <div class="col-sm-6">
@@ -204,7 +240,7 @@ nav: false
         <ol start="10">
             <li>Click OK.</li>
             <li>After Photoshop has completed the action, make sure all the images have been saved to the correct folder.</li>
-            <li>Email Jess when you have completed a folder, box, or project and have converted all files to both access jpeg and lowres jpeg.</li>
+            <li>Email Kevin (kdobbins@uidaho.edu) or Kit (kstokes@uidaho.edu) when you have completed a folder, box, or project and have converted all files to both access jpeg and lowres jpeg.</li>
         </ol>
     </div>
 </div>
@@ -220,7 +256,7 @@ nav: false
             <li>Under Tools, select Recognize Text > In this file.</li>
             <li>Wait until Adobe Acrobat completes the command (the document will end up back at the first page).</li>
             <li>Save the document as a PDF following the naming rules established on Scanning Images and Documents.</li>
-            <li>Email Jess when you have completed a folder, box, or project and have converted all files to both access jpeg and lowres jpeg.</li>
+            <li>Email Kevin (kdobbins@uidaho.edu) or Kit (kstokes@uidaho.edu) when you have completed a folder, box, or project and have converted all files to both access jpeg and lowres jpeg.</li>
         </ol>
     </div>
 </div>
